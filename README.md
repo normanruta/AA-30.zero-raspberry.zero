@@ -1,5 +1,5 @@
 # AA-30.zero-raspberry.zero
-Set of instructions to assemble AA-30 with rpi0 and Waveshare 5" 1.1 firmware touch screen.
+Set of instructions to assemble AA-30.zero with Raspberry pi zero and Waveshare 5" 1.1 firmware touch screen.
 
 Assuming you have all needed equipment which is:
 - RigExpert AA-30.zero: https://rigexpert.com/products/kits-analyzers/aa-30-zero/ 
