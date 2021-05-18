@@ -38,6 +38,9 @@ This upscaled resolution is needed by AntScope2 app (https://github.com/rigexper
 
 5. Prepare good power source at proceed with AA-30 instructions: https://rigexpert.com/antscope2-for-rasberry-pi-raspbian/ Start your pi from terminal, any needed file either provide with pendrive or usb-network adapter. Do not try to run MAKEs with desktop fired up it will take days! Either a way be patient at this point! If something fails at the moment of starting app try to correct permissions
 6. If AA-30 runs fine proceed with Waveshare LCD installation. This one needs some introduction. Firmware version 1.1 is the ugliest implementation there is. LCD is pretty useless in most of setups. After days of research and thinkering with rpi I found this repo: https://github.com/saper-2/rpi-5inch-hdmi-touchscreen-driver It needed some tweaks 'cause it is for older raspbian image so I urge you to use my version: https://github.com/normanruta/rpi-5inch-hdmi-touchscreen-driver 
-7. And you are done! Enjoy!
+7. At the very end you need sometime to input some values so proceed with: https://pimylifeup.com/raspberry-pi-on-screen-keyboard/
+8. And you are done! Enjoy!
 
 SP5NR 73!
+
+*This instructions has been written after assembling device and following all the procedures presented at links above. All credits goes for authors of those repositories, software and instructions. I have only compiled it for my own needs. Although my device is working as expected please be aware that some DIY skills like soldering iron and some Linux as well as programming knowledge is needed to accomplish above. Also due to changes in system, modules, packages, apps etc. there may be unpredicted behaviour. In that case feel free to contribute but keep in mind that all you do is on your own risk.
