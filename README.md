@@ -3,7 +3,7 @@ Set of instructions to assemble AA-30 with rpi0 and Waveshare 5" 1.1 firmware to
 
 Assuming you have all needed equipment which is:
 - RigExpert AA-30.zero: https://rigexpert.com/products/kits-analyzers/aa-30-zero/ 
-- Upgrade firmware to latest with this tool: https://rigexpert.com/files/software/FlashTool/ *if it doesn't recognise your board use older version and firmware: https://rigexpert.com/files/firmware/aa30zero/rev_1/latest/) *use https://www.waveshare.com/ft232-usb-uart-board-type-a.htm or similar. Don't use arduino as USB-UART converter!
+- Upgrade firmware to latest with this tool: https://rigexpert.com/files/software/FlashTool/ *if it doesn't recognise your board use older version. Here is firmware: https://rigexpert.com/files/firmware/aa30zero/rev_1/latest/) *use https://www.waveshare.com/ft232-usb-uart-board-type-a.htm or similar. Don't use arduino as USB-UART converter!
 - Raspberry pi zero: https://www.raspberrypi.org/products/raspberry-pi-zero/
 - Waveshare 5" touch screen (firmware 1.1): https://www.waveshare.com/wiki/5inch_HDMI_LCD_(B)_(Firmware_Rev_1.1)_User_Manual
 - Logic level converter(any will do): https://propix.com.pl/pl/p/Logic-Level-Converter-4-CH/520
