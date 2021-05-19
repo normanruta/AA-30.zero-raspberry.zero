@@ -29,7 +29,7 @@ For example this could look like this:
 
 
 2. Connect HDMI and USB OTG to Touch port at LCD. This is also enough to power it up
-3. Download rpi image (I'm using 2021-03-04-raspios-buster-armhf) version with desktop should be fine. Burn it on the SD card, start and run sudo apt-get update && sudo apt-get-upgrade as usual.  
+3. Download rpi image (I'm using 2021-03-04-raspios-buster-armhf) version with desktop should be fine. Burn it on the SD card.
 4. Change config.txt file at your raspi boot folder to this one: https://github.com/normanruta/AA-30.zero-raspberry.zero/blob/main/config.txt
 Basically you need:
 ```
@@ -41,6 +41,8 @@ hdmi_cvt 800 480 60 6 0 0 0
 enable_uart=1
 ```
 This upscaled resolution is needed by AntScope2 app (https://github.com/rigexpert/AntScope2). Otherwise you won't be able to see full window. Then just try Raspbian's appearance setting to get this as much readable as possible. The rest parameters and overclocking is up to you.
+
+Then start and run sudo apt-get update && sudo apt-get-upgrade as usual.  
 
 5. Prepare good power source and proceed with AA-30 instructions: https://rigexpert.com/antscope2-for-rasberry-pi-raspbian/ Start your pi from terminal, any needed file either provide with pendrive or usb-network adapter. Do not try to run MAKEs with desktop fired up it will take days! Either a way be patient at this point! If something fails at the moment of starting app try to correct permissions. Unfortunately I don't see cables list and there is an error everytime I click setting that it can't find the file but at this point I don't know where the issue is. And this one is minor since every other aspect (even settings) are working fine.
 6. If AA-30 runs fine proceed with Waveshare LCD installation. This one needs some introduction. Firmware version 1.1 is the ugliest implementation there is. LCD is pretty useless in most of setups since it is not fully HID. Waveshare said that they won't send me newer firmware :/ After days of research and thinkering with rpi I found this repo: https://github.com/saper-2/rpi-5inch-hdmi-touchscreen-driver It needed some tweaks 'cause it is for older raspbian image so I urge you to use my version: https://github.com/normanruta/rpi-5inch-hdmi-touchscreen-driver 
